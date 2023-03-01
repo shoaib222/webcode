@@ -1,0 +1,40 @@
+#books {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .book {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .book h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  
+  .book p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  #pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-link {
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: gray;
+    color: white;
+  }
+  
